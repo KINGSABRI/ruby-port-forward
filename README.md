@@ -5,10 +5,10 @@ port-forward forwards(obviously) an incomming TCP connection on a specific port 
 **Note:** Type 'exit' or 'quit' to exit the script safely (wont exit your netcat session)
 
 
-## Usage
+### Usage
 #### `ruby port-forward.rb <LPORT>:<RHOST>:<RPORT>`
 
-## Example
+### Example
 ```
 $> ruby port-forward.rb 80:localhost:8080
 ```
