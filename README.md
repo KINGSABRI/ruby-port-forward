@@ -4,6 +4,11 @@ port-forward forwards(obviously) an incomming TCP connection on a specific port 
 
 **Note:** Type 'exit' or 'quit' to exit the script safely (wont exit your netcat session)
 
+### OS Support
+- **`port-forward.rb`**
+  - Support all OS's if ruby installed
+- **`port-farward.exe`**
+  - Support Windows (Portable - no ruby required)
 
 ### Usage
 #### `ruby port-forward.rb <LPORT>:<RHOST>:<RPORT>`
